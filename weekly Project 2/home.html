@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="media.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<style>
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    height: 400px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+</style>
+
+<body style="background-color: #070A29;">
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="Image/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul id="li1" class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item dropdown">
+            <a id="a1" style="color: #5c27fe;" class="nav-link dropdown-toggle" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Home
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" style="background-color: white;" href="#">Home v1</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li><a class="dropdown-item" style="background-color: white;" href="#">Home v2</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li><a class="dropdown-item" style="background-color: white;" href="#">Home v3</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li><a class="dropdown-item" style="background-color: white;" href="#">Card Carousel</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li><a class="dropdown-item" style="background-color: white;" href="#">Zigzag Carousel</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li><a class="dropdown-item" style="background-color: white;" href="#">Coverflow Carousel</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li><a class="dropdown-item" style="background-color: white;" href="#"> Carousel</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a id="a1" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Explore
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" style="background-color: white;" href="#">NFTs</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li><a class="dropdown-item" style="background-color: white;" href="#">Blog List</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li><a class="dropdown-item" style="background-color: white;" href="#">Blog Details</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li><a class="dropdown-item" style="background-color: white;" href="#">Visions & Mission</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li><a class="dropdown-item" style="background-color: white;" href="#">Help Center</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li><a class="dropdown-item" style="background-color: white;" href="#">Particular & Assets</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li><a class="dropdown-item" style="background-color: white;" href="#"> Advisors & Backers</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li><a class="dropdown-item" style="background-color: white;" href="#"> Partners & Investors</a></li>
+
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a id="a1" class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a id="a1" class="nav-link" href="#">RoadMap</a>
+          </li>
+
+          <li class="nav-item">
+            <a id="a1" class="nav-link" href="#">Team</a>
+          </li>
+
+          <li class="nav-item">
+            <a id="a1" class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <i id="i1" class="fa-solid fa-magnifying-glass"></i>
+          <button id="btn" class="button" type="submit">Join Now</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="main1 container-fluid">
+    <div class="row">
+      <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+        <section class="cd-intro">
+          <h1 class="cd-headline clip is-full-width text-light wow animate__animated animate__fadeInLeft" id="h2">
+            <span>Collect Next Generation</span>
+            <span class="cd-words-wrapper">
+              <b id="b1" class="is-visible">NFTs</b>
+              <b id="b1">Art</b>
+              <b id="b1">Music</b>
+            </span><br>
+            <span>Today</span>
+          </h1>
+          <p class="text-light text-align-left wow animate__animated animate__fadeInLeft" style="text-align: left;">
+            Cyfonii is the premier marketplace for nifties, which are digital items you can truly own for yourself
+          </p>
+
+          <button class="btn1 wow animate__animated animate__fadeInLeft">
+            Get Connected
+          </button>
+        </section>
+
+
+      </div>
+
+      <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+        <center>
+          <img class="img1 mt-5 img-fluid mt-5" src="Image/banner.png" alt="">
+        </center>
+      </div>
+    </div>
+  </div>
+
+  <div class="main2">
+    <div class="row">
+      <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+        <img class="img3" src="Image/about-02.png" alt="">
+
+        <img class="img2 wow animate__animated animate__fadeInLeft" src="Image/about-01.png" alt="">
+
+
+        <img class="img4" src="Image/about-03.png" alt="">
+
+        <img class="img5" src="Image/about-04.png" alt="">
+
+        <img class="img6" src="Image/about-05.png" alt="">
+
+
+      </div>
+      <div id="col1" class="col col-12 col-sm-12 col-md-12 col-lg-6">
+
+        <div class="s1">
+          <button class="btn2 wow animate__animated animate__fadeInRight">About Us</button>
+
+          <h1 class=" wow animate__animated animate__fadeInRight">Hight Quality NFT Collections</h1>
+
+          <p class="mt-3 wow animate__animated animate__fadeInRight">
+            Cyfonii is the premier marketplace for nifties, which are digital items you can truly own for yourself
+            <br><br>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia dese runt mollit anim id est
+            laborum velit esse cillum dolore eu fugiat nulla pariatu epteur sint occaecat
+          </p>
+
+          <button class="btn3 wow animate__animated animate__fadeInRight">More About Us</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="main3 container-fluid pt-5">
+    <div class="row">
+      <div class="col">
+        <center>
+          <button class="btn4 wow animate__animated animate__fadeInDown">Our Speciality</button>
+
+          <h1 class="pt-3 wow animate__animated animate__fadeInDown">Complete Solutions for your NFT</h1>
+
+          <p class=" wow animate__animated animate__fadeInDown">Cyfonii is the premier marketplace for nifties, which
+            are digital items you can truly own for yourself</p>
+        </center>
+      </div>
+    </div>
+
+    <div id="r1" class="row">
+      <center>
+        <div id="r2" class="row d-flex justify-content-between">
+          <div id="col2" class="col col-12 col-sm-6 col-md-4 col-lg-3 wow animate__animated animate__fadeInUp">
+            <div class="s2">
+              <div class="s3">
+                <i class="fa-solid fa-square-check"></i>
+
+
+              </div>
+              <h5 class="pt-3">Huge Collection</h5>
+
+              <p>Oficia dese runt mollit anim id est labo met, consectetur adipis</p>
+
+              <h1>01</h1>
+            </div>
+          </div>
+          <div id="col2" class="col col-12 col-sm-6 col-md-4 col-lg-3 wow animate__animated animate__fadeInUp">
+            <div class="s2">
+              <div class="s3">
+                <i class="fa-solid fa-gem"></i>
+
+
+              </div>
+              <h5 class="pt-3">High Quality</h5>
+
+              <p>Oficia dese runt mollit anim id est labo met, consectetur adipis</p>
+
+              <h1>02</h1>
+            </div>
+          </div>
+          <div id="col2" class="col col-12 col-sm-6 col-md-4 col-lg-3 wow animate__animated animate__fadeInUp">
+            <div class="s2">
+              <div class="s3">
+                <i class="fa-brands fa-sourcetree"></i>
+
+
+              </div>
+              <h5 class="pt-3">Top Resource</h5>
+
+              <p>Oficia dese runt mollit anim id est labo met, consectetur adipis</p>
+
+              <h1>03</h1>
+            </div>
+          </div>
+          <div id="col2" class="col col-12 col-sm-6 col-md-4 col-lg-3 wow animate__animated animate__fadeInUp">
+            <div class="s2">
+              <div class="s3">
+                <i class="fa-solid fa-house-chimney"></i>
+
+
+              </div>
+              <h5 class="pt-3">Big Community</h5>
+
+              <p>Oficia dese runt mollit anim id est labo met, consectetur adipis</p>
+
+              <h1>04</h1>
+            </div>
+          </div>
+        </div>
+      </center>
+    </div>
+
+    <div id="r4" class="row pt-5">
+      <div class="col">
+        <center>
+          <button class="btn5 wow animate__animated animate__fadeInDown">Join NFT Protfolio</button>
+
+          <h1 class="pt-3 wow animate__animated animate__fadeInDown">Become a Cyfonii Player Now</h1>
+
+        </center>
+      </div>
+    </div>
+
+    <div id="r5" class="row">
+
+      <div id="col3" class="col col-12 col-sm-12 col-md-12 col-lg-6">
+
+        <div class="s4 wow animate__animated animate__fadeInLeft">
+          <button class="btn6">Step 1</button>
+
+          <h6 class="pt-3">Connect your wallet</h6>
+
+          <p>
+            Suspendisse tristique neque a lorem placerat pharetra. Class aptent taciti sociosqu ad litora torquent per
+            conubia nostra, per inceptos himenaeos
+          </p>
+        </div>
+
+        <div class="s4 wow animate__animated animate__fadeInLeft">
+          <button class="btn6">Step 1</button>
+
+          <h6 class="pt-3">Connect your wallet</h6>
+
+          <p>
+            Suspendisse tristique neque a lorem placerat pharetra. Class aptent taciti sociosqu ad litora torquent per
+            conubia nostra, per inceptos himenaeos
+          </p>
+        </div>
+
+        <div class="s4 wow animate__animated animate__fadeInLeft">
+          <button class="btn6">Step 1</button>
+
+          <h6 class="pt-3">Connect your wallet</h6>
+
+          <p>
+            Suspendisse tristique neque a lorem placerat pharetra. Class aptent taciti sociosqu ad litora torquent per
+            conubia nostra, per inceptos himenaeos
+          </p>
+        </div>
+
+        <div class="s4 wow animate__animated animate__fadeInLeft">
+          <button class="btn6">Step 1</button>
+
+          <h6 class="pt-3">Connect your wallet</h6>
+
+          <p>
+            Suspendisse tristique neque a lorem placerat pharetra. Class aptent taciti sociosqu ad litora torquent per
+            conubia nostra, per inceptos himenaeos
+          </p>
+        </div>
+
+      </div>
+      <div id="col4" class="col d-flex justify-content-center align-items-center col-12 col-sm-12 col-md-12 col-lg-6">
+
+        <div class="s5">
+          <img src="Image/portfolio.png" alt="">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="main4 container-fluid">
+    <div class="row">
+      <div id="col5" class="col">
+        <center>
+          <button class="btn5 wow animate__animated animate__fadeInDown">Join NFT Protfolio</button>
+
+          <h1 class="pt-3 wow animate__animated animate__fadeInDown">OUR COLLECTION</h1>
+
+        </center>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+
+
+    </div>
+  </div>
+  <div class="body">
+    <div class="swiper mySwiper1">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide wow animate__animated animate__fadeInLeft">
+          <div class="slide1">
+            <div class="s7">
+              <div class="s6">
+                <button class="btn7">
+                  3D DIgital Artwork
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide wow animate__animated animate__fadeInLeft">
+          <div class="slide1">
+            <div class="s7">
+              <div class="s8">
+                <button class="btn7">
+                  3D DIgital Artwork
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide wow animate__animated animate__fadeInLeft">
+
+          <div class="slide1">
+            <div class="s7">
+              <div class="s9">
+                <button class="btn7">
+                  3D DIgital Artwork
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-slide wow animate__animated animate__fadeInLeft">
+
+
+          <div class="slide1">
+            <div class="s7">
+              <div class="s10">
+                <button class="btn7">
+                  3D DIgital Artwork
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-slide wow animate__animated animate__fadeInLeft">
+
+          <div class="slide1">
+            <div class="s7">
+              <div class="s11">
+                <button class="btn7">
+                  3D DIgital Artwork
+                </button>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="main4">
+    <div class="row pt-5">
+      <div id="col6" class="col">
+        <center>
+          <button class="btn5 wow animate__animated animate__fadeInDown">Join NFT Protfolio</button>
+
+          <h1 class="pt-3 wow animate__animated animate__fadeInDown">Our Amazing Team Members</h1>
+
+        </center>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="main5 d-flex justify-content-center">
+
+    <div id="r6" class="row d-flex justify-content-center">
+      <div class="col col-12 col-sm-12 col-md-6 col-lg-3">
+        <div class="s12 wow animate__animated animate__fadeInDown">
+          <div class="s13 d-flex justify-content-center align-items-center">
+            <div class="s14">
+              <div class="s15">
+
+              </div>
+            </div>
+          </div>
+          <center>
+            <h3 class="pt-3 fs-4 fw-bold">Jane Cooper</h3>
+
+            <p class="fs-6">Founder & CEO</p>
+
+            <div class="icon">
+              <div class="icon1">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+
+              <div class="icon1">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+
+              <div class="icon1">
+                <i class="fa-brands fa-telegram"></i>
+              </div>
+            </div>
+          </center>
+        </div>
+      </div>
+
+      <div class="col col-12 col-sm-12 col-md-6 col-lg-3">
+        <div class="s12 wow animate__animated animate__fadeInUp">
+          <div class="s13 d-flex justify-content-center align-items-center">
+            <div class="s14">
+              <div class="s16">
+
+              </div>
+            </div>
+          </div>
+          <center>
+            <h3 class="pt-3 fs-4 fw-bold">Jane Cooper</h3>
+
+            <p class="fs-6">Founder & CEO</p>
+
+            <div class="icon">
+              <div class="icon1">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+
+              <div class="icon1">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+
+              <div class="icon1">
+                <i class="fa-brands fa-telegram"></i>
+              </div>
+            </div>
+          </center>
+        </div>
+      </div>
+
+      <div class="col col-12 col-sm-12 col-md-6 col-lg-3">
+        <div class="s12 wow animate__animated animate__fadeInDown">
+          <div class="s13 d-flex justify-content-center align-items-center">
+            <div class="s14">
+              <div class="s17">
+
+              </div>
+            </div>
+          </div>
+          <center>
+            <h3 class="pt-3 fs-4 fw-bold">Jane Cooper</h3>
+
+            <p class="fs-6">Founder & CEO</p>
+
+            <div class="icon">
+              <div class="icon1">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+
+              <div class="icon1">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+
+              <div class="icon1">
+                <i class="fa-brands fa-telegram"></i>
+              </div>
+            </div>
+          </center>
+        </div>
+      </div>
+
+      <div class="col col-12 col-sm-12 col-md-6 col-lg-3">
+        <div class="s12 wow animate__animated animate__fadeInUp">
+          <div class="s13 d-flex justify-content-center align-items-center">
+            <div class="s14">
+              <div class="s18">
+
+              </div>
+            </div>
+          </div>
+          <center>
+            <h3 class="pt-3 fs-4 fw-bold">Jane Cooper</h3>
+
+            <p class="fs-6">Founder & CEO</p>
+
+            <div class="icon">
+              <div class="icon1">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+
+              <div class="icon1">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+
+              <div class="icon1">
+                <i class="fa-brands fa-telegram"></i>
+              </div>
+            </div>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <center>
+    <button class="btn8 mt-5">We Are Partnered with Top Brands</button>
+
+  </center>
+
+  <div class="main5 mt-5">
+    <div class="swiper mySwiper2">
+      <div style="height: 100px;" class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="s19">
+            <img src="Image/brand-01.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="s19">
+            <img src="Image/brand-02.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="s19">
+            <img src="Image/brand-03.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="s19">
+            <img src="Image/brand-04.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="s19">
+            <img src="Image/brand-05.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="s19">
+            <img src="Image/brand-06.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+
+
+  <div class="main6 mt-5">
+    <div class="row">
+      <div id="col7" class="col">
+        <center>
+          <button class="btn9 wow animate__animated animate__fadeInDown">Testimonials</button>
+
+          <h1 class="pt-3 wow animate__animated animate__swing display-3">What People Say</h1>
+
+          <img class="pt-5 wow animate__animated animate__fadeInDown" src="Image/quote.png" alt="">
+
+          <p class="pt-3 wow animate__animated animate__fadeInDown">
+
+            “ Curabitur eu est feugiat quam feugiat tristique non vel erat. Class aptent taciti sociosqu ad litora
+            torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Quisque congue, nunc nec suscipit fringilla, augue ligula eleifend velit. “
+          </p>
+
+          <div class="s20 wow animate__animated animate__fadeInDown">
+
+          </div>
+
+          <h3 class="pt-3 wow animate__animated animate__fadeInDown">Jacob Jones</h3>
+
+          <p class="p1 fs-6 wow animate__animated animate__fadeInDown">Chief Product Officer</p>
+        </center>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="main7">
+    <div class="row">
+      <div id="col8" class="col">
+        <center>
+          <button class="btn5 wow animate__animated animate__fadeInDown">Join NFT Protfolio</button>
+
+          <h1 class="pt-3 wow animate__animated animate__fadeInDown">Frequently Aksed Questions</h1>
+
+          <p class="pt-3 wow animate__animated animate__fadeInDown">
+            Below is a list of frequently asked questions and answers from partners and 3D artist
+            Please check this FAQ first before contacting us.
+
+          </p>
+
+          <button class="btn10 mt-3 wow animate__animated animate__fadeInDown">Cryptocurrency</button>
+
+          <button class="btn11 mt-3 wow animate__animated animate__fadeInDown">NFT Token</button>
+
+          <button class="btn10 mt-3 wow animate__animated animate__fadeInDown">Collection</button>
+
+          <button class="btn10 mt-3 wow animate__animated animate__fadeInDown">Crypto Trading</button>
+        </center>
+      </div>
+    </div>
+
+    <div class="row pt-5">
+      <div id="col9" class="col col-12 d-flex justify-content-center">
+        <section class="accordion">
+          <ul class="accordion-list">
+            <li class="accordion-item wow animate__animated animate__fadeInLeft" style="background: rgba(255,255,255,0.1); border: 0px;">
+              <input type="checkbox" id="collapse-1" class="accordion-button">
+              <label style="color: white;" for="collapse-1" class="accordion-header">
+                <p>01. When the musics over turn off the light?</p>
+                <p class="closed">+</p>
+                <p class="opened">-</p>
+              </label>
+
+              <section class="content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus aliquam parturient erat id vel,
+                  condimentum a, hendrerit egestas. Auctor cras diam, dui pulvinar elit. Egestas feugiat gravida in
+                  imperdiet facilisi tortor ac ultrices venenatis.
+                </p>
+              </section>
+            </li>
+            <li class="accordion-item wow animate__animated animate__fadeInLeft" style="background: rgba(255,255,255,0.1); border: 0px;">
+              <input type="checkbox" id="collapse-2" class="accordion-button">
+              <label style="color: white;" for="collapse-2" class="accordion-header">
+                <p>02. What is the best way to collect NFT?</p>
+                <p class="closed">+</p>
+                <p class="opened">-</p>
+              </label>
+
+              <section class="content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus aliquam parturient erat id vel,
+                  condimentum a, hendrerit egestas. Auctor cras diam, dui pulvinar elit. Egestas feugiat gravida in
+                  imperdiet facilisi tortor ac ultrices venenatis.
+                </p>
+              </section>
+            </li>
+            <li class="accordion-item wow animate__animated animate__fadeInLeft" style="background: rgba(255,255,255,0.1); border: 0px;">
+              <input type="checkbox" id="collapse-3" class="accordion-button">
+              <label style="color: white;" for="collapse-3" class="accordion-header">
+                <p>03. What is the best way to collect NFT?</p>
+                <p class="closed">+</p>
+                <p class="opened">-</p>
+              </label>
+
+              <section class="content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus aliquam parturient erat id vel,
+                  condimentum a, hendrerit egestas. Auctor cras diam, dui pulvinar elit. Egestas feugiat gravida in
+                  imperdiet facilisi tortor ac ultrices venenatis.
+                </p>
+              </section>
+            </li>
+            <li class="accordion-item wow animate__animated animate__fadeInLeft" style="background: rgba(255,255,255,0.1); border: 0px;">
+              <input type="checkbox" id="collapse-4" class="accordion-button">
+              <label style="color: white;" for="collapse-4" class="accordion-header">
+                <p>04. What is the best way to collect NFT?</p>
+                <p class="closed">+</p>
+                <p class="opened">-</p>
+              </label>
+
+              <section class="content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus aliquam parturient erat id vel,
+                  condimentum a, hendrerit egestas. Auctor cras diam, dui pulvinar elit. Egestas feugiat gravida in
+                  imperdiet facilisi tortor ac ultrices venenatis.
+                </p>
+              </section>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="main8 mt-5 container-fluid">
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+        <div class="s21 d-flex flex-wrap">
+          <div class="s22">
+            <h3 class="pt-5 px-5 wow animate__animated animate__fadeInRight">Create your NFT portfolio</h3>
+
+            <p class="px-5 wow animate__animated animate__fadeInRight">Get udpated with news, tips & tricks</p>
+
+            <button class="btn12 mx-5 mt-3 mb-5 wow animate__animated animate__fadeInRight">Join Now</button>
+          </div>
+
+          <div class="s23 wow animate__animated animate__fadeInRight">
+            <img src="Image/create.png" alt="">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="main9">
+  <center>
+    <h1 class="display-5 wow animate__animated animate__fadeInDown">Get Newsletter</h1>
+
+    <p class="wow animate__animated animate__fadeInDown">Get udpated with news, tips & tricks</p>
+
+    <input class="mt-3wow animate__animated animate__fadeInDown" type="text" placeholder="Your Email">
+<br>
+    <button class="btn13 mt-3 wow animate__animated animate__fadeInDown">Subscribe</button>
+  </center>    
+  </div>
+
+  <div class="main10">
+    <div class="row">
+      <div class="col d-flex justify-content-center align-items-center pt-5 pb-5 col-12 col-sm-12 col-md-6 col-lg-4">
+        <img class="img7" src="Image/logo.png" alt="">
+      </div>
+
+      <div id="col10" class="col col-12 col-sm-12 col-md-6 col-lg-4">
+        <center>
+        <a href="">Home</a>
+        <a href="">Explore</a>
+        <a href="">About</a>
+        <a href="">Collections</a>
+        <a href="">Team</a>
+        <a href="">Contact</a>
+        </center>
+        <center>
+          <p>Copyright © 2022, Cyfonii. Designed by Themesflat</p>
+        </center>
+      </div>
+      <div class="col d-flex justify-content-center col-12 col-sm-12 col-md-6 col-lg-4">
+      
+        <div class="icon2">
+          <div class="icon3">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+
+          <div class="icon3">
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+
+          <div class="icon3">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+
+          <div class="icon3">
+            <i class="fa-brands fa-youtube"></i>
+
+          </div>
+        </div></div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper1", {
+    effect: "coverflow",
+    autoplay: true,
+    loop: true,
+    autoplayspeed: 1000,
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+
+  var swiper = new Swiper(".mySwiper2", {
+    autoplay: true,
+    autoplayspeed: 1000,
+    loop: true,
+    slidesPerView: 6,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
+  $(document).ready(function () {
+    $(".accordion-button").on("change", function () {
+      $(".accordion-button").not(this).prop("checked", false);
+      const isChecked = $(this).prop("checked");
+      const content = $(this).closest(".accordion-item").find(".content");
+
+      $(".content").removeClass("show");
+      if (isChecked) {
+        content.addClass("show");
+      } else {
+        content.removeClass("show");
+      }
+    });
+  });
+
+</script>
+<script>
+  new WOW().init();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="home.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

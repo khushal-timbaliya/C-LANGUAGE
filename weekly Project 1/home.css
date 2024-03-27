@@ -1,0 +1,585 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    cursor: none !important;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+.main1 {
+    height: 90px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.s1 {
+    height: 100%;
+    width: auto;
+    /* border: 1px solid black; */
+}
+
+.s1 input {
+    margin-top: 18%;
+    border: 0px;
+    width: 50%;
+    margin-left: 35%;
+}
+
+.s1 .img1 {
+    height: 80%;
+    width: 80%;
+    margin-top: 2%;
+}
+
+.s2 {
+    height: 50px;
+    width: 35px;
+    /* border: 1px solid black; */
+    margin-top: 15%;
+}
+
+.s2 i {
+    font-size: 25px;
+}
+
+.s2 p {
+    font-size: 10px;
+    display: none;
+}
+
+.s2 .img2 {
+    height: 25px;
+    width: 25px;
+}
+
+.s2:hover p {
+    display: block;
+}
+
+#s1 {
+    width: 50px;
+}
+
+#s4 {
+    width: 15%;
+    /* border: 1px solid black; */
+}
+
+.s3 {
+    height: 7px;
+    width: 100%;
+    background-color: #a3293b;
+}
+
+.nav {
+    /* border: 1px solid black; */
+    background-color: #13294b;
+}
+
+#a1 {
+    color: white;
+}
+
+#container1 .img3 {
+    width: 100%;
+}
+
+
+
+#r2 {
+    width: 90%;
+    /* border: 1px solid black; */
+    margin-left: 5%
+}
+
+
+.s5 {
+    height: 550px;
+    width: 100%;
+    background-color: #13294b;
+}
+
+.s6 {
+    height: 98%;
+    width: 98%;
+    background-image: url(Image/HP_-_Men_Curation_Block_polo_Shirts_540x.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.s5:hover .s6 {
+    height: 100%;
+    width: 100%;
+    background-image: url(Image/HP_-_Men_Curation_Block_polo_Shirts_540x.jpg);
+    background-size: cover;
+    box-shadow: rgba(19, 41, 75, 0.17) 0px -23px 25px 0px inset, rgba(19, 41, 75, 0.15) 0px -36px 30px 0px inset, rgba(19, 41, 75, 0.1) 0px -79px 40px 0px inset, rgba(19, 41, 75, 0.06) 0px 2px 1px, rgba(19, 41, 75, 0.09) 0px 4px 2px, rgba(19, 41, 75, 0.09) 0px 8px 4px, rgba(19, 41, 75, 0.09) 0px 16px 8px, rgba(19, 41, 75, 0.09) 0px 32px 16px;
+}
+
+.s7 {
+    height: 98%;
+    width: 98%;
+    background-image: url(Image/HP_-_Men_Curation_Block_jeans_540x.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.s5:hover .s7 {
+    height: 100%;
+    width: 100%;
+    background-image: url(Image/HP_-_Men_Curation_Block_jeans_540x.jpg);
+    background-size: cover;
+    box-shadow: rgba(19, 41, 75, 0.17) 0px -23px 25px 0px inset, rgba(19, 41, 75, 0.15) 0px -36px 30px 0px inset, rgba(19, 41, 75, 0.1) 0px -79px 40px 0px inset, rgba(19, 41, 75, 0.06) 0px 2px 1px, rgba(19, 41, 75, 0.09) 0px 4px 2px, rgba(19, 41, 75, 0.09) 0px 8px 4px, rgba(19, 41, 75, 0.09) 0px 16px 8px, rgba(19, 41, 75, 0.09) 0px 32px 16px;
+}
+
+.s8 {
+    height: 98%;
+    width: 98%;
+    background-image: url(Image/HP_-_Men_Curation_Block_Shirts_540x.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.s5:hover .s8 {
+    height: 100%;
+    width: 100%;
+    background-image: url(Image/HP_-_Men_Curation_Block_Shirts_540x.jpg);
+    background-size: cover;
+    box-shadow: rgba(19, 41, 75, 0.17) 0px -23px 25px 0px inset, rgba(19, 41, 75, 0.15) 0px -36px 30px 0px inset, rgba(19, 41, 75, 0.1) 0px -79px 40px 0px inset, rgba(19, 41, 75, 0.06) 0px 2px 1px, rgba(19, 41, 75, 0.09) 0px 4px 2px, rgba(19, 41, 75, 0.09) 0px 8px 4px, rgba(19, 41, 75, 0.09) 0px 16px 8px, rgba(19, 41, 75, 0.09) 0px 32px 16px;
+}
+
+.s9 {
+    height: 98%;
+    width: 98%;
+    background-image: url(Image/HP_-_Men_Curation_Block_T-shirts_1_540x.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.s5:hover .s9 {
+    height: 100%;
+    width: 100%;
+    background-image: url(Image/HP_-_Men_Curation_Block_T-shirts_1_540x.jpg);
+    background-size: cover;
+    box-shadow: rgba(19, 41, 75, 0.17) 0px -23px 25px 0px inset, rgba(19, 41, 75, 0.15) 0px -36px 30px 0px inset, rgba(19, 41, 75, 0.1) 0px -79px 40px 0px inset, rgba(19, 41, 75, 0.06) 0px 2px 1px, rgba(19, 41, 75, 0.09) 0px 4px 2px, rgba(19, 41, 75, 0.09) 0px 8px 4px, rgba(19, 41, 75, 0.09) 0px 16px 8px, rgba(19, 41, 75, 0.09) 0px 32px 16px;
+}
+
+.s10 {
+    height: 98%;
+    width: 98%;
+    background-image: url(Image/HP_-_Men_Curation_Block_Shorts_540x.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.s5:hover .s10 {
+    height: 100%;
+    width: 100%;
+    background-image: url(Image/HP_-_Men_Curation_Block_Shorts_540x.jpg);
+    background-size: cover;
+    box-shadow: rgba(19, 41, 75, 0.17) 0px -23px 25px 0px inset, rgba(19, 41, 75, 0.15) 0px -36px 30px 0px inset, rgba(19, 41, 75, 0.1) 0px -79px 40px 0px inset, rgba(19, 41, 75, 0.06) 0px 2px 1px, rgba(19, 41, 75, 0.09) 0px 4px 2px, rgba(19, 41, 75, 0.09) 0px 8px 4px, rgba(19, 41, 75, 0.09) 0px 16px 8px, rgba(19, 41, 75, 0.09) 0px 32px 16px;
+}
+
+#container2{
+    width: 90%;
+}
+
+#container2 img{
+    height: 550px;
+    transition-duration: 0.5s;
+}
+
+#container2 img:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#col3{
+    height: 630px;
+    width: 100%;
+    background-image: url(Image/Number_Polo_Banner_-_Desktop_1_1728x.jpg);
+    background-size: cover;
+}
+
+.btn2{
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #13294b;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: 80%;
+    left: 13%;
+}
+
+#container4{
+    height: auto;
+    width: 90%;
+    /* border: 1px solid black; */
+}
+
+#container4 .row{
+    height: auto; 
+    width: auto;
+}
+
+#col4{
+    height: 600px;
+    /* border: 1px solid black; */}
+
+.s11{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-image: url(Image/1_9276782a-34bc-4916-a609-8586a69a604a_360x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#col4:hover .s11{
+    background-image: url(Image/2_7649034f-7404-4a02-818f-59adfc304e40_360x.jpg);
+}
+
+.btn3{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #13294b;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.btn3:hover{
+    background-color: transparent;
+    color: #13294b;
+    border: 1px solid #13294b;
+}
+
+.s12{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-image: url(Image/1_328d92d7-dba4-44c2-afaa-2b99da73ff30_360x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#col4:hover .s12{
+    background-image: url(Image/2_10480d2e-2210-43a4-9e8c-f4b79828af05_360x.jpg);
+}
+
+.s13{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-image: url(Image/1_b2c22412-7b79-4f6f-962a-c041f2a730a1_360x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#col4:hover .s13{
+    background-image: url(Image/2_de0f6fdb-ae05-446b-94ab-4c3e71dfd59f_540x.jpg);
+}
+
+.s14{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-image: url(Image/1_a814e244-d17e-4aa8-b958-117276107289_360x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#col4:hover .s14{
+    background-image: url(Image/2_79f143dc-6bd9-417b-8f46-de88516b59e3_360x.jpg);
+}
+
+.btn4{
+    height: 45px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #13294b;
+    transition-duration: 0.5s;
+}
+
+.btn4:hover{
+    background-color: #13294b;
+    color: white;
+}
+
+#container5{
+    height: auto;
+    width: 90%;
+}
+
+.s15{
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.s15 img{
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.s15:hover img{
+    transform: scale(1.1);
+}
+
+#col5{
+    height: 100%;
+    width: 100%;
+}
+
+#col5 img{
+    height: 100%;
+    width: 100%;
+}
+
+#container8{
+    height: auto;
+    width: 90%;
+    /* border: 1px solid black; */
+}
+
+#container7{
+    height: auto;
+    width: 90%;
+}
+
+#col6{
+    height: 600px;
+}
+
+.s16{
+    height: 55%;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-image: url(Image/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#col6:hover .s16{
+    background-image: url(Image/1.1.jpg);
+}
+
+.s17{
+    height: 55%;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-image: url(Image/2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#col6:hover .s17{
+    background-image: url(Image/2.2.jpg);
+}
+
+
+.s18{
+    height: 55%;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-image: url(Image/3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#col6:hover .s18{
+    background-image: url(Image/3.3.jpg);
+}
+
+
+.s19{
+    height: 55%;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-image: url(Image/4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#col6:hover .s19{
+    background-image: url(Image/4.4.jpg);
+}
+
+
+.s20{
+    height: 55%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url(Image/5.jpg);
+    background-size: cover;
+}
+
+#col6:hover .s20{
+    background-image: url(Image/5.5.jpg);
+}
+
+#container6{
+    height: auto;
+    width: 90%;
+    /* border: 1px solid black; */
+}
+
+.s21{
+    overflow: hidden;
+}
+
+.s21 img{
+    transition-duration: 0.5s;
+}
+
+.s21:hover img{
+    transform: scale(1.1);
+}
+
+.s22{
+    overflow: hidden;
+}
+
+.s22 img{
+    transition-duration: 0.5s;
+}
+
+.s22:hover img{
+    transform: scale(1.1);
+}
+
+
+.s23{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-image: url(Image/6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#col6:hover .s23{
+    background-image: url(Image/6.6.jpg);
+}
+
+.s24{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-image: url(Image/7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#col6:hover .s24{
+    background-image: url(Image/7.7.jpg);
+}
+
+
+.s25{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-image: url(Image/8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#col6:hover .s25{
+    background-image: url(Image/8.8.jpg);
+}
+
+
+.s26{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-image: url(Image/9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#col6:hover .s26{
+    background-image: url(Image/9.9.jpg);
+}
+
+.s27{
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.s27 img{
+    transition-duration: 0.5s;
+}
+
+.s27:hover img{
+    transform: scale(1.1);
+}
+
+.main2{
+    background-color: #eeeeee;
+}
+
+#container9{
+    background-color: #13294b;
+}
+
+#container9 .row{
+    width: 90%;
+}
+
+#container9 .col input{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+  
+  #cursor {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background-color: #13294b;
+    border-radius: 100%;
+    pointer-events: none;
+    z-index: 1000;
+    transition: transform ease-out 10ms;
+  }
+  
+  #stalker {
+    position: fixed;
+    margin-top: -15px;
+    margin-left: -15px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    opacity: 30%;
+    border-radius: 100%;
+    pointer-events: none;
+    transition: transform ease-out 100ms;
+    z-index: 999;
+  }
+  
