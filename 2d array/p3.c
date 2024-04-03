@@ -1,10 +1,13 @@
 #include<stdio.h>
 main(){
-    int arr[5][5];
+    int space;
+    printf("enter space of array : ");
+    scanf("%d",&space);
+    int arr[space][space];
     int sum;
-    for (int i = 0; i <= 4; i++)
+    for (int i = 0; i < space; i++)
     {
-        for (int j = 0; j <= 4; j++)
+        for (int j = 0; j < space; j++)
         {
             printf("enter value of array : ");
             scanf("%d",&arr[i][j]);
@@ -12,14 +15,14 @@ main(){
         
         printf("\n");
     }
-    for (int i = 0; i <= 4; i++)
+    for (int i = 0; i < space; i++)
     {
-        for (int j = 0; j <= 4; j++)
+        for (int j = 0; j < space; j++)
         {
-            if (i==0 || i==4 || j==0  ||j==4)
+            if (i==0 || i==space-1 || j==0  ||j==space-1)
             {
                 printf("%d",arr[i][j]);
-                sum=sum+arr[i][j];
+                // sum=sum+arr[i][j];
             }
             else
             {
@@ -28,6 +31,6 @@ main(){
         } 
         printf("\n");
     }
-    printf("%d",sum);
+    // printf("%d",sum);
 
 }
