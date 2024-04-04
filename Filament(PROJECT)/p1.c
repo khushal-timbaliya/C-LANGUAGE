@@ -4,9 +4,9 @@ int main(){
 
     for (int i=0; val[i]!=NULL; i++)
     {
-      if (val[i]>='a' && val[i]<='z')
+      if (val[i]>='A' && val[i]<='Z')
       {
-        val[i]-=32;
+        val[i]+=32;
       } 
       printf("%c",val[i]);
     } 
