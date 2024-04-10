@@ -1,27 +1,21 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<string.h>
 
-// Recursive function to calculate factorial
-long long calculateFactorial(int n) {
-    if (n == 0 || n == 1) {
+int function(int a){
+    if(a<=1){
         return 1;
-    } else {
-        return n * calculateFactorial(n - 1);
+    }
+    else{
+        return a*function(a-1);
     }
 }
 
-int main() {
-    int num;
 
-    printf("Enter a positive integer: ");
-    scanf("%d", &num);
+main(){
+    int a;
+    
+    printf("Enter the valu :");
+    scanf("%d",&a);
 
-    if (num < 0) {
-        printf("Factorial is not defined for negative numbers.\n");
-    } else {
-        // Call the calculateFactorial() function
-        long long result = calculateFactorial(num);
-        printf("Factorial of %d is %lld\n", num, result);
-    }
-
-    return 0;
+    printf("sum=%d\n",function(a));
 }
