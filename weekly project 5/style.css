@@ -1,0 +1,369 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* .container-fluid{
+    border: 2px solid black;
+}
+.container{
+    border: 3px solid green;
+}
+.row{
+    border: 2px solid gray;
+}
+.col{
+    border: 2px solid red;
+} */
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    background-color: whitesmoke;
+  }
+  .sm-icons {
+    flex-direction: row;
+  }
+  .sm-icons .nav-link {
+    padding-right: 1em;
+  }
+
+#a1{
+    height: 95vh;
+    background-image: url("IMG/s1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.a2{
+    font-family: "Jost";
+}
+.a3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+}
+.a4{
+    font-family: "Jost";
+}
+.a5{
+    font-family: "Jost";
+    border: 1px solid whitesmoke;
+    color: white;
+    width: 180px;
+    height: 40px;
+}
+.a6 img{
+    height: 130px;
+    width: 200px;
+}
+.a6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a7{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a8{
+    background-image: url("IMG/b5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.a9{
+    height: 35vh;
+    background-image: url("IMG/b6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.a10{
+    font-family: "Jost";
+    font-weight: 500;
+    margin-left: 5%;
+}
+.a11{
+    font-family: "Jost";
+    color: #414141;
+    font-weight: 500;
+    margin-left: 5%;
+}
+.a12{
+    border-bottom: 3px solid black;
+    font-family: "Jost";
+    margin-left: 2%;
+    border-radius: 0px;
+    background-color: whitesmoke;
+}
+.a13{
+    border-bottom: 3px solid black;
+    font-family: "Jost";
+    margin-left: 2%;
+    border-radius: 0px;
+    background-color: transparent;
+}
+.b1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b2{
+    background-color: #BE9C79;
+    height: 40px;
+    width: 150px;
+    border-radius: 0px;
+    font-size: 15px;
+    font-family: "Jost";
+}
+.b3{
+    background-color: transparent;
+    height: 40px;
+    margin-left: 1%;
+    width: 150px;
+    font-size: 15px;
+    font-family: "Jost";
+    color: #D5A879;
+    font-weight: 500;
+    border: 1px solid #BE9C79;
+}
+.b4{
+    background-image: url("https://creafts-store-demo.myshopify.com/cdn/shop/products/1.jpg?v=1663640318");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+}
+.b5{
+    background-image: url("IMG/d1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+}
+.b6{
+    background-image: url("IMG/d2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+}
+.b7{
+    background-image: url("IMG/d3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+}
+
+.b5:hover{
+    background-image: url("IMG/d3.jpg");
+    transition: 1s;
+}
+.b6:hover{
+    background-image: url("IMG/d5.jpg");
+    transition: 1s;
+}
+.c1{
+    background-image: url("IMG/s1\ \(2\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    margin-top: 2%;
+}
+.c2{
+    background-image: url("IMG/s2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    margin-top: 2%;
+}
+.c3{
+    background-image: url("IMG/s3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    margin-top: 2%;
+}
+.c4{
+    background-image: url("IMG/s4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    margin-top: 2%;
+    width: 100%;
+}
+.e1{
+    height: 120vh;
+    width: 100%;
+    background-image: url("https://creafts-store-demo.myshopify.com/cdn/shop/files/b4.jpg?v=1663645983");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    transition-duration: 0.5s;
+}
+.e2{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 5px solid red; */
+    background-color: #F5F5F5;
+}
+.e1:hover{
+    transform: scale(1.1);
+}
+.e3{
+    height: 360px;
+    width: 350px;
+    border: 2px solid red;
+    /* background-image: url("IMG/b1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.e3 img{
+    height: 100%;
+    width: 100%;
+}
+.e4{
+    font-weight: 500;
+    font-family: "Jost";
+}
+.e5{
+    font-family: "Jost";
+    font-weight: 400;
+}
+.e6{
+    height: 50px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 0px;
+    font-family: "Jost";
+}
+.e7{
+    font-family: "Jost";
+    font-weight: 600;
+}
+.e8{
+    color: #666666;
+    font-weight: 600;
+    font-family: "Jost";
+}
+.e9{
+    background-image: url("IMG/w1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+}
+.e10{
+    background-image: url("IMG/w2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+}
+.e11{
+    background-image: url("IMG/w3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+}
+.e12{
+    background-image: url("IMG/w4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+}
+.e13{
+    font-weight: 600;
+    font-family: "Jost";
+}
+.e14{
+    font-family: "Jost";
+    color: #BE9C79;
+    font-weight: 500;
+}
+.e15{
+    background-image: url("IMG/in1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+.e16{
+    background-image: url("IMG/in2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+.e17{
+    background-image: url("IMG/in3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+.e18{
+    background-image: url("IMG/in4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+.e20{
+    /* height: 45vh; */
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: #F9F9F9;
+}
+.e21 img{
+    height: 30px;
+    width: 150px;
+}
+.e22{
+    font-family: "Jost";
+}
+i{
+    padding: 10px;
+}
+.e25{
+    font-family: "Jost";
+}
+.e26{
+    font-family: "Jost";
+    line-height: 35px;
+}
+.e27{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.e28{
+    font-size: 15px;
+    font-family: "Jost";
+}
