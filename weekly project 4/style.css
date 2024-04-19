@@ -3,3 +3,217 @@
     padding: 0;
     box-sizing: border-box;
 }
+nav{
+    height: 90px;
+    width: 100%;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed ;
+    background-color: transparent;
+    z-index: 99;
+}
+nav .n1 input{
+    background-color: transparent;
+    margin-left: 25px;
+    padding: 15px;
+    height: 40px;
+    width: 250px;
+    border: 1px solid #f0ebdc;
+}
+nav .n1 input::placeholder{
+    color: #f0ebdc;
+}
+nav .n1 i{
+    position: relative;
+    right: 55px;
+    font-size: 20px;
+}
+nav .n2 a{
+    text-decoration: none;
+    color: #f0ebdc;
+    margin-left: 25px;
+}
+nav .n2 img{
+    height: 50px;
+    margin-left: 25px;
+}
+nav .n3 p{
+    text-align: right;
+    margin: 0;
+    margin-right: -50px;
+}
+nav button{
+    border: none;
+    padding: 10px 25px 10px 25px;
+    background-color: #f0ebdc;
+    margin-right: 25px;
+}
+header{
+    background-image: url(img/restaurant-home-01.png);
+    background-attachment: fixed;
+    height: 120vh;
+    background-color: #303030;
+    background-size: cover;
+    background-position: center;
+    /* position: relative; */
+}
+header .h1{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    font-size: 3em;
+    color: #f0ebdc;
+}
+header .h2{
+    position: absolute;
+    top: 460px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #f0ebdc;
+    left: 100px;
+}
+header .h3{
+    position: absolute;
+    bottom: -150px;
+    width: 350px;
+    z-index: 0;
+}
+header button{
+    border: 1px solid #f0ebdc;
+    color: #f0ebdc;
+    background-color: transparent;
+    padding: 10px 25px 10px 25px;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+}
+header button:hover{
+    color: #ba986d;
+    border: 1px solid #ba986d;
+    transition: 1s;
+}
+header .h4{
+    position: absolute;
+    top: 300px;
+    right: 150px;
+}
+#cl1{
+    margin-top: 200px;
+}
+.h5{
+    /* position: absolute; */
+    /* margin-top: 95vh; */
+    /* width: 50vh; */
+    /* left: 35vh; */
+    /* display: flex; */
+    /* border: 1px solid black; */
+    position: relative;
+    top: 100vh;
+}
+.second{
+    height: auto;
+}
+.third{
+    height: 100vh;
+    background-image:url(img/restaurant-home-04.png);
+    background-attachment: fixed;
+    background-position-y: 100px;
+    background-size: cover;
+    background-color: #303030;
+}
+.third p{
+    width: 380px;
+}
+.third button{
+    width: 200px;
+    border: 1px solid #f0ebdc;
+    color: #f0ebdc;
+    background-color: transparent;
+    padding: 10px 25px 10px 25px;
+    /* position: absolute; */
+    /* top: 550px;
+    left: 100px; */
+}
+.third button:hover{
+    color: #ba986d;
+    border: 1px solid #ba986d;
+    transition: 1s;
+}
+.fourth{
+    height: auto;
+    background-color: #303030;
+}
+.fourth h3{
+    color: #ba986d;
+}
+.fourth p{
+    color: #f0ebdc;
+}
+
+#f1{
+    background-image: url(img/restaurant-home-05.png);
+    /* background-position: center; */
+    /* background-size: cover; */
+    background-color: #303030;
+    color: #f0ebdc;
+}
+
+.fifth{
+    height: 90vh;
+    background-color: #f0ebdc;
+}
+
+.fifth .a4{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    bottom: 10%;
+    background-image: url(img/restaurant-home-10.png);
+    background-size: cover;
+}
+
+.sixth .bg{
+    position: relative;
+    bottom: 100px;
+}
+.sixth .text{
+    width: 80% ;
+    /* height: 60%; */
+    line-height: 25px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+.seventh{
+    height: 80vh;
+    border: 1px solid black;
+    background-image: url(img/restaurant-home-12.png);
+    background-size: cover;
+}
+
+.ninth{
+    height: auto;
+    background-color: #f0ebdc;
+    background-image: url(img/restaurant-home-13.png);
+    background-size: cover;
+}
+
+.tenth{
+    height: 50vh;
+    background-image: url(img/map-restaurant-opt2.jpg);
+}
+.a10{
+    height: 40vh;
+    width: 350px;
+    background-color: #f0ebdc;
+}
+.eleventh{
+    background-color: #f0ebdc;
+}
+.a11 a{
+    color: black;
+    text-decoration: none;
+    margin-left: 25px;
+}
