@@ -69,4 +69,17 @@ var swiper = new Swiper(".mySwiper2", {
   },
 });
 
+// sixth
+
+var swiper = new Swiper(".mySwiper3", {
+  slidesPerView: 2,
+  spaceBetween: 30,
+  autoplay:true,
+  autoplaySpeed:1000,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+
 })

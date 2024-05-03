@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,32 +6,36 @@
 
 /* nav */
 
-nav{
+nav {
     height: 20vh;
     width: 100%;
     position: fixed;
     transition: 0.5s;
     z-index: 99;
 }
-.hemburger{
+
+.hemburger {
     display: flex;
     align-items: center;
 }
-.menu{
+
+.menu {
     height: 40px;
     width: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.menubox{
+
+.menubox {
     height: 40px;
     display: flex;
     align-items: center;
     display: none;
     padding-top: 8px;
 }
-.menubox a{
+
+.menubox a {
     text-decoration: none;
     color: red;
     padding-inline: 10px;
@@ -39,43 +43,44 @@ nav{
 
 /* header */
 
-header{
+header {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/banner-2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/banner-2.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
+
 /* swiper slider */
 
 header .swiper {
     width: 100%;
     height: 100%;
-  }
+}
 
 header .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background-color:transparent ;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
 header .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
 /* first */
 
-.first{
+.first {
     height: 100vh;
     width: 100%;
-    background-color: rgb(43,56,64);
+    background-color: rgb(43, 56, 64);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,7 +89,7 @@ header .swiper-slide img {
 .first .swiper {
     width: 80%;
     height: 50%;
-  }
+}
 
 .first .swiper-slide {
     text-align: center;
@@ -93,26 +98,181 @@ header .swiper-slide img {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
- .first .swiper-slide img {
+.first .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
 /* second */
 
+.second {
+    height: auto;
+    background-color: white;
+}
+
+.second .A2 {
+    position: relative;
+    bottom: 100px;
+}
+
+.second .aa2 {
+    height: 70px;
+    width: 70px;
+    border: 2px solid lightgrey;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.bb2 {
+    width: 65%;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 30px;
+}
+
+.B2 button {
+    position: relative;
+    top: 20px;
+    z-index: 1;
+}
+
+/* third */
+
+.third {
+    /* border: 5px solid red; */
+}
+
+.star-list {
+    list-style-type: '\2605';
+    padding-left: 10px;
+}
+
+.third .p3 {
+    text-decoration: underline;
+    color: red;
+}
+
+.third .a3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* fourth */
+.fourth {
+    position: relative;
+    top: 150px;
+}
+
+.fourth .img {
+    border: 15px solid white;
+    height: 500px;
+    width: 60%;
+    background-image: linear-gradient(rgba(255, 25, 87, 0.5), rgba(255, 25, 87, 0.5)), url(img/video.jpg);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.fourth .img:hover {
+    background-image: linear-gradient(rgba(255, 25, 87, 0.7), rgba(255, 25, 87, 0.7)), url(img/video.jpg);
+    transition-duration: 1.5s;
+}
+
+/* fifth */
+
+.fifth {
+    height: 100vh;
+    background-color: rgb(238, 238, 238);
+}
+
+.fifth .row {
+    height: 400px;
+}
+
+.fifth .plus {
+    display: none;
+}
+
+.fifth .col-4:hover .plus {
+    display: block;
+}
+
+.fifth .cl1 {
+    background-image: url(img/home-blog-1.jpg);
+}
+
+.fifth .cl1:hover {
+    background-image: linear-gradient(rgba(255, 25, 87, 0.4), rgba(255, 25, 87, 0.4)), url(img/home-blog-1.jpg);
+}
+
+.fifth .cl2 {
+    background-image: url(img/home-blog-2.jpg);
+}
+
+.fifth .cl2:hover {
+    background-image: linear-gradient(rgba(255, 25, 87, 0.4), rgba(255, 25, 87, 0.4)), url(img/home-blog-2.jpg);
+}
+
+.fifth .cl3 {
+    background-image: url(img/home-blog-3.jpg);
+}
+
+.fifth .cl3:hover {
+    background-image: linear-gradient(rgba(255, 25, 87, 0.4), rgba(255, 25, 87, 0.4)), url(img/home-blog-3.jpg);
+}
+
+/* sisth */
+
+
+.sixth .container {
+    height: 300px;
+    /* border: 1px solid black; */
+}
+
+.sixth .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.sisth .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+
+footer{
+    height: 100vh;
+    background-image: url(img/footer-bg.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+footer .row{
+    height: 300px;
+}
 
 
 /* new added class in jquery */
 
-.background{
+.background {
     height: 10vh;
     background-color: white;
 }
-.tgl{
+
+.tgl {
     display: block;
     transition: 0.5s;
 }
